@@ -1,5 +1,5 @@
 <templateSet group="User">
-  <template name="sfc" value="import React, { FC } from 'react';&#10;&#10;interface IProps {&#10;  [x: string]: any;&#10;}&#10;&#10;const $COMPONENT_NAME$: FC&lt;IProps&gt; = (props) =&gt; {&#10;  const {} = props;&#10;&#10;  return (&#10;    &lt;&gt;&lt;/&gt;&#10;  );&#10;};&#10;&#10;$COMPONENT_NAME$.defaultProps = {&#10;&#10;};&#10;" description="React functional componetn" toReformat="false" toShortenFQNames="true">
+  <template name="sfc" value="import React, { FC } from 'react';&#10;&#10;interface IProps {&#10;  [x: string]: any;&#10;}&#10;&#10;export const $COMPONENT_NAME$: FC&lt;IProps&gt; = (props) =&gt; {&#10;  const {&#10;    $END$&#10;  } = props;&#10;&#10;  return (&#10;    &lt;&gt;&lt;/&gt;&#10;  );&#10;};&#10;&#10;$COMPONENT_NAME$.defaultProps = {&#10;&#10;};&#10;&#10;export default $COMPONENT_NAME$;" description="React functional componetn" toReformat="false" toShortenFQNames="true">
     <variable name="COMPONENT_NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
