@@ -2,6 +2,7 @@
   <action id="CloseEditor">
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
+  <action id="Diff.ShowSettingsPopup" />
   <action id="EditorSelectWord" />
   <action id="MoveTabDown">
     <keyboard-shortcut first-keystroke="shift alt minus" />
@@ -10,4 +11,8 @@
     <keyboard-shortcut first-keystroke="shift ctrl e" />
   </action>
   <action id="RecentLocations" />
+  <action id="ToggleZenMode">
+    <keyboard-shortcut first-keystroke="shift ctrl d" />
+  </action>
+  <action id="Uml.ShowDiff" />
 </keymap>
